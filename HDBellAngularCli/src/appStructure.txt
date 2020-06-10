@@ -1,0 +1,38 @@
+* src
++---* app
+    +--* ticket
+|   |  |--tickes.component.ts|.html|.css
+|   |  +--* ticket-List
+|   |  |  |--ticket-List.component.ts|.html|.css
+|   |  +--* ticket-addEdit
+|   |  |  |--ticket-addEdit.component.ts|.html|.css
+|   +--* project
+|   |  |--project.component.ts|.html|.css
+|   |  +--* project-List
+|   |  |  |--project-List.component.ts|.html|.css
+|   +--* employee
+|   |  |--employee.component.ts|.html|.css
+|   |  +--* employee-List
+|   |  |  |--employee-List.component.ts|.html|.css
+|   +--* department
+|   |  |--department.component.ts|.html|.css
+|   |  +--* department-List
+|   |  |  |--department-List.component.ts|.html|.css
+|   |  |
+|   +--* shared
+|   |  |--employee.model.ts
+|   |  |--employee.service.ts
+|   |  |--department.model.ts
+|   |  |--department.service.ts
+|   |  |--project.model.ts
+|   |  |--project.service.ts
+|   |  |--ticket.model.ts
+|   |  |--ticket.service.ts
+|   
+|   |--app.module.ts
+|
++---* environmets
+|   |--environment.ts (saved apiUrl)
+|
+|--index.html (cdn path for bootstrap and font awesome icon)
+

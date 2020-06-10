@@ -1,0 +1,24 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+  <input type="hidden" name="TicketId" #TicketID="ngModel" [(ngModel)]="ticketService.formData.TicketId">
+  <div class="form-group">
+    <label>Date Creation</label>
+    <input name="TDateCreation" #Name="ngModel" [(ngModel)]="ticketService.formData.TDateCreation" class="form-control" required>
+    <!-- <div class="validation-error" *ngIf="TDateCreation.invalid && TDateCreation.touched">This field is required.</div> -->
+  </div>
+  <div class="form-group">
+    <label>Project Name</label>
+    <input name="ProjectName" #Position="ngModel" [(ngModel)]="ticketService.formData.ProjectName" class="form-control">
+  </div>  
+  <div class="form-group">
+    <label>Description</label>
+    <input name="TDescription" #Position="ngModel" [(ngModel)]="ticketService.formData.TDescription" class="form-control">
+  </div>
+  <div class="form-group">
+    <label>Employee Name</label>
+    <input name="EmployeeId" #Position="ngModel" [(ngModel)]="ticketService.formData.EmployeeId" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block">SUBMIT</button>
+  </div>
+</form>

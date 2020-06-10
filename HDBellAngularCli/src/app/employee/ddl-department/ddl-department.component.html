@@ -1,0 +1,7 @@
+<select (change)="onSelect($event.target.value)" [(ngModel)]="selectedDepartment.DName">
+  <option *ngFor="let department of departments" value= {{department.DepartmentId}}>
+     {{department.DName}}
+  </option>
+</select>
+<br/>
+Selected Department ID: {{selectedDepartment.DepartmentId}} & Name: {{selectedDepartment.DName}}
