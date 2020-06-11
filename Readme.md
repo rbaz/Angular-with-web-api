@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 	Make sure you have [Web Api Project](https://github.com/rbaz/Angular-with-web-api/tree/master/HDBellWebApi) installed.
   
 	$ git clone https://github.com/rbaz/Angular-with-web-api
-	$ cd angular-crud-rest-api
+	$ cd angular-crud-rest-api/HDBellAngularCli
 	```
 2. Install Dependencies
 
