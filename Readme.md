@@ -1,7 +1,47 @@
-This project is created for demos on .Net Framework. I used those technologis
-Backend: C#, Asp.Net MVC, Web Api, RestFull, WCF, Entity Framework, SQL Server, Patterns Repository, Uow, Ioc, and others.
-Frontend: Razor, Asp.Net, Angular, AngularJS, JavaScript, JQuery, Json, Xml, CSS, Bootstrap and Html
-Visual studio code
-Visual Studio 2015/2017/2019
-SQL Server Express 2017
+# AngularCrudWebApi
+CRUD Web Application Example built using Angular, Bootstrap, WebApi
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.0
+
+## Installation<a name="installation"></a>
+
+
+
+
+1. Clone or Download the repository
+
+	Make sure you have [Web Api Project](https://github.com/rbaz/Angular-with-web-api/tree/master/HDBellWebApi) installed.
+  
+	$ git clone https://github.com/rbaz/Angular-with-web-api
+	$ cd angular-crud-rest-api
+	```
+2. Install Dependencies
+
+	```
+	$ npm install
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
 
